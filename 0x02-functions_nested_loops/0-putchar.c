@@ -3,8 +3,9 @@
 /*
  * Function nested loop
  */
+
 int main(void)
 {
-	printf("__putchar");
+	printf("_putchar");
 	return (0);
 }
