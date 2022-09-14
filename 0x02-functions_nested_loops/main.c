@@ -1,18 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-
-int main(void)
+void    ft_print_alphabet(void)
 
 {
-	int go;
-	for(go='a'; go<='z'; go++)
-	    putchar(go);
 
-	        return (0);
+	char    letter;
 
+	letter = 'a';
+
+		    while (letter <= 'z')
+
+	{
+	putchar(letter);
+	letter++;
+	}
 }
+
+
